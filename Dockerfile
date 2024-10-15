@@ -3,6 +3,7 @@ FROM ubuntu:latest
 RUN apt-get update && apt-get install -y \
     python3.12 \
     python3-pip \
+    libyaml-dev \
     git
 
 RUN pip3 install pyYAML
